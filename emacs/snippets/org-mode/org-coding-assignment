@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: org-coding-assignment
+# key: <assignment
+# --
+
+#+title: ${1:title}
+
+#+options: htmlize-css-file:nil
+#+OPTIONS: html-postamble:nil
+
+#+HTML_HEAD_EXTRA: <style>
+#+HTML_HEAD_EXTRA: pre.src {
+#+HTML_HEAD_EXTRA:   background-color: #333; /* Dark background color */
+#+HTML_HEAD_EXTRA:   color: #eee; /* Light text color */
+#+HTML_HEAD_EXTRA:   padding: 1em; /* Optional: Add some padding */
+#+HTML_HEAD_EXTRA:   border-radius: 5px; /* Optional: Rounded corners */
+#+HTML_HEAD_EXTRA: }
+#+HTML_HEAD_EXTRA: </style>
+
+$0

@@ -1,0 +1,42 @@
+# -*- mode: snippet -*-
+# name: Codeforces java template
+# key: <codeforces
+# --
+
+import java.io.*;
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args) throws IOException {
+        PrintWriter out = new PrintWriter(System.out);
+        // Usuage :
+        // out.println("Hello, Codeforces!");
+        // out.print(123);
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+
+        // Example: Reading a single integer
+        // int n = Integer.parseInt(br.readLine());
+        
+        // Example: Some other types
+        // double n = Double.parseDouble(br.readline());
+        // long n = Long.parseLong(br.readline());
+
+        // Example: Reading multiple integers from a single line
+        // st = new StringTokenizer(br.readLine());
+        // int a = Integer.parseInt(st.nextToken());
+        // int b = Integer.parseInt(st.nextToken());
+
+        // Example: Reading a string
+        // String s = br.readLine();
+        
+        // close classes
+        out.close();
+        br.close();
+    }
+}
+
+class Solution {
+$0
+}
